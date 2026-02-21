@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 # Step 2: Load the dataset
-# Ensure 'student_scores.csv' is in the same directory
 data = pd.read_csv("C:/Users/donsh/Downloads/student_scores.csv")
 
 # Display first few rows to verify data
@@ -39,4 +38,5 @@ plt.xlabel("Hours Studied")
 plt.ylabel("Score")
 plt.title("Hours Studied vs Score")
 plt.legend()
+
 plt.show()
